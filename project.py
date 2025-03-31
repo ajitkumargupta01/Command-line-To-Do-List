@@ -1,19 +1,3 @@
-'''
-    To create a command-line to-do list application that allows users to:
-
-    1. Add tasks: Input new tasks to be added to the list.
-    2. View tasks: Display all tasks in the list.
-    3. Delete tasks: Remove completed or unwanted tasks.
-    4. Save and Load: Save the to-do list to a file for future use and load existing lists.
-
-                                    Technical Requirements:                                
-    File Handling:  Use Python's file I/O operations to read and write data to a text file.
-    Data Structure: Employ a suitable data structure (e.g., list, dictionary) to store task information, including
-                    the task description and its completion status.
-    User Interface: Design a simple command-line interface to interact with the user.
-    Error Handling: Implement error handling to gracefully handle invalid user input or file operations.
-    
-'''
 import os
 tasklist=[]
 def Add_task():
